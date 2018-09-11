@@ -1,3 +1,4 @@
+; Jerred Shepherd
 (defun lookup (k m) 
     (if (listp m)
         (if (listp (first m))
