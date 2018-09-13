@@ -5,13 +5,13 @@
             (if (eq k (first (first m)))
                 (second (first m))
                 (if (endp (rest m))
-                    'nil
+                    nil
                     (lookup k (rest m))
                 )
             )
-            'nil
+            nil
         )
-        'nil
+        nil
     )
 )
 
